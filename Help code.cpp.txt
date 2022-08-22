@@ -15,7 +15,7 @@ using namespace std;
 #define maps unordered_map<string,int>
 
 int main(){
-    
+    return 0;
 }
 
 static bool comp(const vector<int>& vec1,const vector<int>& vec2){
