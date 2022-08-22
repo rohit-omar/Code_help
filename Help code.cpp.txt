@@ -5,6 +5,7 @@
 using namespace std;
 
 #define i int
+#define lln long long int
 #define mod 1000000007
 #define llv 2147483647
 #define v vector<int>
