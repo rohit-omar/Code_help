@@ -23,3 +23,12 @@ static bool comp(const vector<int>& vec1,const vector<int>& vec2){
 }
 
 cout<<setprecision(int n)
+
+class comparator{
+public:
+    bool operator() (string  &a,string &b){
+        if(a.size() != b.size()) return a.size()>b.size();
+        return a>b;
+    }
+}
+
