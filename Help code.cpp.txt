@@ -13,6 +13,8 @@ using namespace std;
 #define vps vector<pair<string,int>>
 #define mapi unordered_map<int,int>
 #define maps unordered_map<string,int>
+#define maxHeap priority_queue<int>
+#define minHeap priority_queue<int,vector<int>,greater<int>> 
 
 int main(){
     return 0;
@@ -31,4 +33,6 @@ public:
         return a>b;
     }
 }
+
+priority Queue: push pop top empty 
 
