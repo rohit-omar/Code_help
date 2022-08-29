@@ -35,3 +35,7 @@ public:
 
 priority Queue: push pop top empty 
 
+string str = to_string(_num(int)_);
+
+int num = stoi(_str(string)_);
+
