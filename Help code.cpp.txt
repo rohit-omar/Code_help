@@ -31,7 +31,7 @@ public:
         if(a.size() != b.size()) return a.size()>b.size();
         return a>b;
     }
-}
+};
 
 priority Queue: push pop top empty 
 
