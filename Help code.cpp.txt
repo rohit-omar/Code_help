@@ -33,6 +33,18 @@ public:
     }
 };
 
+class comparator{
+public:
+    bool operator() (const pair<int,string> &a, pair<int,string> &b){
+        if(a.first != b.first) return a.second > b.second;
+        return a.first > b.first;
+    }
+};
+
+priority_queue<int,vector<int>,greater<int>> minHeap;
+priority_queue<pair<int,string>,vector<pair<int,string>>,comparator> minHeap;
+priority_queue<int> maxHeap;
+
 priority Queue: push pop top empty 
 
 string str = to_string(_num(int)_);
