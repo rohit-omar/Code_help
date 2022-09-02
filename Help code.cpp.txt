@@ -51,3 +51,5 @@ string str = to_string(_num(int)_);
 
 int num = stoi(_str(string)_);
 
+count = count(str.begin(),str.end(),' ')  //count Spaces in string when no tariling or leading spaces present #string
+
