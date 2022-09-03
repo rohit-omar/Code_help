@@ -53,3 +53,6 @@ int num = stoi(_str(string)_);
 
 count = count(str.begin(),str.end(),' ')  //count Spaces in string when no tariling or leading spaces present #string
 
+upper_bound(vec.begin(),vec.end(),  );
+lower_bound(vec.begin(),vec.end(),  );
+
