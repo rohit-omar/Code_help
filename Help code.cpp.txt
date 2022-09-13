@@ -14,6 +14,8 @@ using namespace std;
 #define maps unordered_map<string,int>
 #define maxHeap priority_queue<int>
 #define minHeap priority_queue<int,vector<int>,greater<int>> 
+#define minVal LONG_MIN
+#define maxVal LONG_MAX
 
 int main(){
     return 0;
