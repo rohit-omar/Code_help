@@ -17,6 +17,31 @@ using namespace std;
 #define minVal LONG_MIN
 #define maxVal LONG_MAX
 
+ll gcd (ll a,ll b) // (a>b)
+{
+    if(b==0)
+    {
+        return a;
+    }
+    else
+    {
+       return gcd(b,a%b);
+    }
+}
+
+bool isPrime(int n)
+{
+    if (n <= 1)
+        return false;
+ 
+    // Check from 2 to square root of n
+    for (int i = 2; i <= sqrt(n); i++)
+        if (n % i == 0)
+            return false;
+ 
+    return true;
+}
+
 int main(){
     return 0;
 }
