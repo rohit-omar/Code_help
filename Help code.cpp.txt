@@ -85,3 +85,5 @@ count = count(str.begin(),str.end(),' ')  //count Spaces in string when no taril
 upper_bound(vec.begin(),vec.end(),  ); // iterator to the value just greater than given value else provide to the end
 lower_bound(vec.begin(),vec.end(),  ); // iterator to the value just greater than given value else provied to the end
 
+
+vector_name.resize(n,val);
