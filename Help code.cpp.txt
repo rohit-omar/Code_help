@@ -46,6 +46,8 @@ int main(){
     return 0;
 }
 
+int mod = (int)(10e9+7)  // for global declaration of variable
+
 static bool comp(const vector<int>& vec1,const vector<int>& vec2){
     return vec1[1]<vec2[1];
 }
